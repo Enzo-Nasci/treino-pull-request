@@ -4,60 +4,67 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background-color: #4caf50;
   color: white;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
 }
+
 main {
-  padding: 20px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
 footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-.btn {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 7px;
-  cursor: pointer;
-  text-align: center;
-  display: inline-block;
-  transition: 0.2s ease;
-  position: absolute;
-  right: 42%;
-  top: 40%;
-}
-.btn:hover {
-  background-color: #45a049;
-  transition: 0.2s ease;
-}
-
-.sobreProjeto {
-  width: 322px;
-}
-
-.sectionSobre {
-  position: absolute;
-  left: 300px;
-}
-
-.sectionFunc {
-  position: absolute;
-  right: 280px;
-  top: 18%;
-}
-
-.textoBaixo {
-  position: absolute;
-  top: 50%;
-  right: 43.5%;
+  padding: 15px;
+  margin-top: 40px;
 }
