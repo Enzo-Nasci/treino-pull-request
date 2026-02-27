@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de HTML e CSS Interno</title>
+
+    <style>
+        /* Estilos Globais */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f0f2f5;
+            color: #1c1e21;
+        }
+
+        /* Estilizando a tag Header */
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        /* O container principal que segura os cards */
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 40px;
+            flex-wrap: wrap; /* Faz os itens quebrarem linha no celular */
+        }
+
+        /* Estilizando as seções como se fossem cards */
+        section {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 30px;
+            width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        section:hover {
+            transform: scale(1.05); /* Aumenta levemente ao passar o rato */
+        }
+
+        h2 {
+            color: #4a90e2;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #606770;
+            margin-bottom: 20px;
+        }
+
+        /* Estilizando o link como um botão */
+        a {
+            text-decoration: none;
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #357abd;
+        }
+
+        /* Rodapé fixado no final */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #ccc;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Aprenda HTML & CSS</h1>
+        <p>Tudo o que você precisa em um único arquivo.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Estrutura</h2>
+            <p>O HTML define o que aparece na tela: textos, imagens e botões.</p>
+            <a href="#">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Estilo</h2>
+            <p>O CSS define como tudo aparece: cores, tamanhos e animações.</p>
+            <a href="#">Saiba mais</a>
+        </section>
+
+        <section>
+            <h2>Layout</h2>
+            <p>O Flexbox ajuda a organizar os elementos de forma moderna.</p>
+            <a href="#">Saiba mais</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Guia de Estudos para Iniciantes</p>
+    </footer>
+
+</body>
+</html> 
